@@ -3,7 +3,6 @@ attr_reader :quantity, :orders
     def initialize
         @orders = []
         @quantity = 0
-        
     end 
     
     def order
@@ -14,6 +13,5 @@ attr_reader :quantity, :orders
         @quantity += 1
         @orders.push("#{@quantity} x #{item}")
         @orders.join("\n")
-        
     end
 end 
