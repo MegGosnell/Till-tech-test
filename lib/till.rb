@@ -9,7 +9,7 @@ attr_reader :quantity, :orders
         @orders
     end
     
-    def receipt(item)
+    def receipt(item) 
         @quantity += 1
         @orders.push("#{@quantity} x #{item}")
         @orders.join("\n")
