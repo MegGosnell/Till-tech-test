@@ -6,7 +6,14 @@
           1,
           null,
           1,
-          2,
+          3,
+          null,
+          1,
+          1,
+          1,
+          null,
+          null,
+          null,
           1,
           1,
           1,
@@ -18,6 +25,16 @@
       "/Users/megangosnell/Desktop/till_tech_test/lib/till.rb": {
         "lines": [
           1,
+          1,
+          1,
+          2,
+          2,
+          2,
+          null,
+          null,
+          1,
+          1,
+          null,
           null,
           1,
           1,
@@ -26,6 +43,6 @@
         ]
       }
     },
-    "timestamp": 1615634589
+    "timestamp": 1615635007
   }
 }
