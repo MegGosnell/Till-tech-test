@@ -1,17 +1,17 @@
 class Till 
-attr_reader :quantity, :orders
+attr_reader :quantity, :order
     def initialize
-        @orders = []
+        @order = []
         @quantity = 0
     end 
     
-    def order
-        @orders
+    def basket
+        @order
     end
     
-    def receipt(item) 
+    def customer_order(item) 
         @quantity += 1
-        @orders.push("#{@quantity} x #{item}")
-        @orders.join("\n")
+        @order.push("#{@quantity} x #{item}")
+        @order.join("\n")
     end
 end 
