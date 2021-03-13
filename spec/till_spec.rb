@@ -4,7 +4,7 @@ describe Till do
 subject(:till) {described_class.new}
 
     describe "#order" do 
-        it "shows the items that have been ordered" do 
+        it "calculating the customers orders" do 
             expect(subject.order("latte")).to eq ["1 x latte"]
         end 
     end

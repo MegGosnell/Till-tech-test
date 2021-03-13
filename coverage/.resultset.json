@@ -1,7 +1,7 @@
 {
   "RSpec": {
     "coverage": {
-      "/Users/megangosnell/Desktop/till_tech_test/spec/till_spec.rb": {
+      "/Users/megangosnell/Desktop/Till-tech-test/spec/till_spec.rb": {
         "lines": [
           1,
           null,
@@ -23,7 +23,7 @@
           null
         ]
       },
-      "/Users/megangosnell/Desktop/till_tech_test/lib/till.rb": {
+      "/Users/megangosnell/Desktop/Till-tech-test/lib/till.rb": {
         "lines": [
           1,
           1,
@@ -47,6 +47,6 @@
         ]
       }
     },
-    "timestamp": 1615637059
+    "timestamp": 1615639802
   }
 }
