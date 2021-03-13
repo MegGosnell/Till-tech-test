@@ -1,16 +1,19 @@
 class Till 
 attr_reader :quantity, :item, :name
     def initialize
-        @item = item 
+        @orders = []
         @quantity = 0
         @name = name
     end 
     
-    def order
-        "latte"
-    end 
-
+    def order(item)
+        @quantity += 1
+        @orders.push("#{@quantity} x #{item}")
+        @orders
+    end
+    
     def receipt 
-        @quantity 
+        @orders.join("\n")
+        
     end
 end 
