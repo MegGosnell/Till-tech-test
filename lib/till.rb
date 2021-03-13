@@ -1,5 +1,5 @@
 class Till 
-attr_reader :quantity, :item, :orders
+attr_reader :quantity, :orders
     def initialize
         @orders = []
         @quantity = 0
